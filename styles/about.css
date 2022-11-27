@@ -1,0 +1,36 @@
+#row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.column {
+    flex: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 100%;
+    padding: 16px;
+}
+.column img {
+    height: 10%;
+    width: 10%;
+}
+.column:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.column {
+    padding: 16px;
+}
+.column::after, #row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+#description {
+    padding: 20px;
+    font-size: x-large;
+}

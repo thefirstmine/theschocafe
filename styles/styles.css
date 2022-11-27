@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap'); 
+
+@keyframes easeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+body {
+    background-color: #FFC08D;
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    font-size: xx-large;
+    text-align: center;
+}
+nav {
+    display: flex;
+    background-color: #B37D50;
+    font-size: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+#navbar a:hover {
+    background-color: #FFC08D;
+    text-decoration: none;
+    padding: 20px;
+}
+#imagelogo {
+    width: 145px;
+    height: 145px;
+}
+#logo {
+    flex: 1;
+    width: 145px;
+    height: 145px;
+    text-align: left;
+    align-self: center;
+}
+#navbar {
+    flex: 1;
+    text-align: right;
+    align-self: center;
+}
+#navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 30pt;
+    padding: 20px;
+}
+article {
+    margin-top: 145px;
+    animation: 1s ease 0s 1 easeIn;
+}
+#content {
+    background-color: #FFC08D;
+    text-align: center;
+}

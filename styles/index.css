@@ -1,0 +1,31 @@
+#content p a {
+    text-decoration: none;
+    color: #4D4D4D;
+}
+#content p a:hover {
+    color: black;
+}
+
+#title-sequence {
+    background-image: url(../img/coffee.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    font-size: 50pt;
+    font-weight: 700;
+    height: 100vh;
+}
+#title-sequence div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#content {
+    background-color: #FFC08D;
+    text-align: center;
+}
